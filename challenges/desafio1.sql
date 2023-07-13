@@ -7,6 +7,7 @@ CREATE TABLE planos (
   plano_tipo VARCHAR(50) NOT NULL,
   plano_preco DOUBLE NOT NULL
 );
+
 CREATE TABLE usuarios (
   usuario_id INT PRIMARY KEY AUTO_INCREMENT,
   usuario_nome VARCHAR(255) NOT NULL,
