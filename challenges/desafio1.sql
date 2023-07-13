@@ -56,7 +56,7 @@ CREATE TABLE historico_de_reproducoes (
 );
 
 INSERT INTO planos (plano_tipo, plano_preco) VALUES
-  ("gratuito", 0.00),
+  ("gratuito", 0),
   ("universitario", 5.99),
   ("pessoal", 6.99),
   ("familiar", 7.99);
